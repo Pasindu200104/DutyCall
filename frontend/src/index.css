@@ -1,0 +1,39 @@
+/* Load Tailwind CSS. */
+@import "tailwindcss";
+
+/* Define the DutyCall colours and font once so every component uses the same ones. */
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #1d1a36;
+  --color-ink-soft: #2b2750;
+  --color-brand: #5b4bdb;
+  --color-brand-dark: #4638b8;
+  --color-brand-light: #eeebff;
+  --color-surface: #f6f5fa;
+}
+
+/* Page background and text colour. */
+body {
+  background-color: var(--color-surface);
+  color: #1f2937;
+  font-family: var(--font-sans);
+}
+
+/* Make the keyboard focus ring clearly visible for accessibility. */
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}
+
+/* Slide the side panel in from the right when it opens. */
+@keyframes slide-in {
+  from { transform: translateX(100%); }
+  to { transform: translateX(0); }
+}
+.animate-slide-in { animation: slide-in 0.2s ease-out; }
+
+/* Respect people who ask their device to reduce motion. */
+@media (prefers-reduced-motion: reduce) {
+  .animate-slide-in { animation: none; }
+  * { transition: none !important; }
+}
