@@ -1,0 +1,157 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Design login screen wireframes",
+      "description": "Create low-fidelity wireframes for the login and sign-up flow, including the forgot password state.",
+      "status": "completed",
+      "priority": "normal",
+      "assignee": "Nimali Perera",
+      "dueDate": "2026-11-10",
+      "createdAt": "2026-11-01T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Set up project repository",
+      "description": "Create the GitHub repository, add the README and agree on the branching strategy.",
+      "status": "completed",
+      "priority": "low",
+      "assignee": "Kasun Silva",
+      "dueDate": "2026-11-05",
+      "createdAt": "2026-11-01T10:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Build customer list screen",
+      "description": "Table with search, filters and pagination for the customer list.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Pasindu Fernando",
+      "dueDate": "2026-11-24",
+      "createdAt": "2026-11-03T08:15:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "Write API documentation",
+      "description": "Document every endpoint with request and response examples so the frontend team can integrate quickly.",
+      "status": "in_progress",
+      "priority": "normal",
+      "assignee": "Kasun Silva",
+      "dueDate": "2026-11-26",
+      "createdAt": "2026-11-04T11:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "Review dashboard colour palette",
+      "description": "Check colour contrast against accessibility guidelines and suggest improvements.",
+      "status": "review",
+      "priority": "normal",
+      "assignee": "Nimali Perera",
+      "dueDate": "2026-11-23",
+      "createdAt": "2026-11-06T09:45:00.000Z"
+    },
+    {
+      "id": 7,
+      "title": "Create reusable button component",
+      "description": "Build a button with primary, secondary and danger variants plus a loading state.",
+      "status": "review",
+      "priority": "high",
+      "assignee": "Pasindu Fernando",
+      "dueDate": "2026-11-22",
+      "createdAt": "2026-11-07T13:10:00.000Z"
+    },
+    {
+      "id": 8,
+      "title": "Add quotation preview page",
+      "description": "Show a printable preview of a quotation before it is sent to the customer.",
+      "status": "todo",
+      "priority": "high",
+      "assignee": "Pasindu Fernando",
+      "dueDate": "2026-11-28",
+      "createdAt": "2026-11-08T10:00:00.000Z"
+    },
+    {
+      "id": 9,
+      "title": "Sales return list view",
+      "description": "List all sales returns with status badges and a link to the original sale.",
+      "status": "todo",
+      "priority": "normal",
+      "assignee": "Tharindu Jayasuriya",
+      "dueDate": "2026-11-30",
+      "createdAt": "2026-11-09T15:30:00.000Z"
+    },
+    {
+      "id": 10,
+      "title": "Prepare user testing script",
+      "description": "Write the tasks and questions used in the first round of usability testing.",
+      "status": "todo",
+      "priority": "low",
+      "assignee": "Nimali Perera",
+      "dueDate": "2026-12-02",
+      "createdAt": "2026-11-10T09:00:00.000Z"
+    },
+    {
+      "id": 11,
+      "title": "Optimise product image loading",
+      "description": "Lazy load product images and serve smaller thumbnails in list views.",
+      "status": "in_progress",
+      "priority": "high",
+      "assignee": "Pasindu Fernando",
+      "dueDate": "2026-11-27",
+      "createdAt": "2026-11-11T08:40:00.000Z"
+    },
+    {
+      "id": 12,
+      "title": "Design empty states",
+      "description": "Design friendly empty states for lists, search results and dashboards.",
+      "status": "in_progress",
+      "priority": "low",
+      "assignee": "Nimali Perera",
+      "dueDate": "2026-11-15",
+      "createdAt": "2026-11-12T12:00:00.000Z"
+    },
+    {
+      "id": 13,
+      "title": "Add discount rules to checkout",
+      "description": "Support percentage and fixed amount discounts, with a limit per order.",
+      "status": "todo",
+      "priority": "urgent",
+      "assignee": "Tharindu Jayasuriya",
+      "dueDate": "2026-11-25",
+      "createdAt": "2026-11-13T16:00:00.000Z"
+    },
+    {
+      "id": 14,
+      "title": "Review pull request for task board",
+      "description": "Check drag and drop behaviour, keyboard access and mobile layout.",
+      "status": "completed",
+      "priority": "high",
+      "assignee": "Kasun Silva",
+      "dueDate": "2026-11-21",
+      "createdAt": "2026-11-14T09:20:00.000Z"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "taskId": 3,
+      "author": "Kasun Silva",
+      "text": "Remember to debounce the search input.",
+      "createdAt": "2026-11-15T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "taskId": 3,
+      "author": "Pasindu Fernando",
+      "text": "Done, I used a 300ms delay.",
+      "createdAt": "2026-11-15T11:30:00.000Z"
+    },
+    {
+      "taskId": 11,
+      "author": "Pasindu Fernando",
+      "text": "This is Ergent Please complete as soon as possible",
+      "createdAt": "2026-11-21T07:58:29.543Z",
+      "id": 4
+    }
+  ]
+}
