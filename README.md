@@ -1,6 +1,6 @@
 # DutyCall - Task Management Dashboard
 
-DutyCall is a modern, responsive task management dashboard with a ClickUp-style board.
+DutyCall is a modern, responsive task management dashboard.
 It was built for the Pied Piper Innovation Software Engineering Intern (Full-Stack & UI/UX) assignment.
 
 ## Features
@@ -21,26 +21,6 @@ It was built for the Pied Piper Innovation Software Engineering Intern (Full-Sta
 | Frontend | React, TypeScript, Vite, React Router |
 | Styling | Tailwind CSS |
 | Mock API | JSON Server (`backend` folder) |
-
-## What is a mock API?
-
-A mock API is a **fake backend** that pretends to be a real server. The frontend sends normal HTTP requests
-(`GET`, `POST`, `PATCH`, `DELETE`) and gets normal JSON answers, but the data is kept in a simple file (`backend/db.json`)
-instead of a real database. We use **JSON Server**, which reads that file and automatically creates the REST endpoints.
-Later the mock API can be replaced by a real backend (for example Node.js with a database) and only the service layer
-of the frontend would need small changes.
-
-| Method | Address | What it does |
-| --- | --- | --- |
-| GET | `/tasks` | Get all tasks |
-| GET | `/tasks/:id` | Get one task |
-| POST | `/tasks` | Create a task |
-| PATCH | `/tasks/:id` | Update some fields of a task |
-| DELETE | `/tasks/:id?_dependent=comments` | Delete a task and its comments |
-| GET | `/comments?taskId=:id` | Get the comments of a task |
-| POST | `/comments` | Add a comment |
-
-The backend starts with a 400 ms delay (`--delay 400`) so you can see the loading states.
 
 ## Setup and run
 
@@ -122,11 +102,4 @@ dutycall/
 
 ## Screenshots
 
-Add your screenshots to a `screenshots` folder and list them here:
 
-- `screenshots/dashboard.png`
-- `screenshots/board.png`
-- `screenshots/board-side-panel.png`
-- `screenshots/task-list.png`
-- `screenshots/create-task-validation.png`
-- `screenshots/mobile.png`
