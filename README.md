@@ -101,5 +101,8 @@ dutycall/
 9. **Error handling.** Every async action is wrapped in try/catch and ends in an error state with retry, a form error, or an error toast.
 
 ## Screenshots
+<img width="1917" height="967" alt="Screenshot 2026-11-21 150933" src="https://github.com/user-attachments/assets/e22138a6-da7f-4f1a-93e2-1ca4a2f05527" />
+<img width="1917" height="967" alt="Screenshot 2026-11-21 150955" src="https://github.com/user-attachments/assets/95644378-6072-4ba6-b6c5-9e7eaa8587cc" />
+<img width="1917" height="966" alt="Screenshot 2026-11-21 151013" src="https://github.com/user-attachments/assets/84954f5a-40e9-418c-a6c9-395fc7e9118f" />
 
 
